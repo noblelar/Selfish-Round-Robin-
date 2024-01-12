@@ -1,3 +1,6 @@
+# Selfish-Round-Robin-
+Selfish round Robin algorithm written in different programing languages (Bash scripting, javaScript and typeScript)
+
 To run the script file, You need to provide at least 3 positional parameters:
 i.e. the fileName, the newqueue increament value and the accepted queue increament value
 
