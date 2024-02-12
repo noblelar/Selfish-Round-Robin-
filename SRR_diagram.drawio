@@ -1,0 +1,91 @@
+<mxfile host="Electron" modified="2024-01-23T23:45:58.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="LrpDgkBpE54gPc4b32o8" version="22.1.16" type="device">
+  <diagram name="Page-1" id="K2LYuZf1RS8_cJ7f-eF4">
+    <mxGraphModel dx="127" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-23" target="HlDrjTaa7BAYd0O_h8BW-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-23" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 1&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Checking and validating all positional parameters&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="910" y="57.5" width="191.67" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="K8TiVMdBCMnTzfh2gLtm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-24" target="K8TiVMdBCMnTzfh2gLtm-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-24" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 2&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;Storing and displaying of all positional parameters.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1179" y="59.5" width="183.33" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-29" value="&lt;h1&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Stage 4&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;Read the data from the data file, populate the processes array, and create a process state array.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;Initialize time count to be 0&lt;/p&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;spacingRight=39;spacingLeft=39;" parent="1" vertex="1">
+          <mxGeometry x="1359" y="247.5" width="259" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-30" target="HlDrjTaa7BAYd0O_h8BW-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-30" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 5&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;Check if processes completed are equal to&amp;nbsp; &amp;nbsp; &amp;nbsp;processes received.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;spacingLeft=42;spacingRight=19;" parent="1" vertex="1">
+          <mxGeometry x="1141" y="380" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-31" target="HlDrjTaa7BAYd0O_h8BW-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-31" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 6&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;Check process arrival time and allocate the processes in the accepted or new queue, respectively, depending on the state of the accepted queue&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1418" y="500" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-32" target="HlDrjTaa7BAYd0O_h8BW-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-32" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 7&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400; text-align: left;&quot;&gt;Increment accepted Queue and New Queue priorities by values received from the entered positional parameters, respectively&amp;nbsp;&lt;/p&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1418" y="730" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-34" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 8&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400; text-align: left;&quot;&gt;Compare New queue priority to accepted queue priority and move elements to the accepted Queue.&lt;/p&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1418" y="940" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-36" target="HlDrjTaa7BAYd0O_h8BW-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-36" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 9&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400; text-align: left;&quot;&gt;Reduce the service time of the element on top of the accepted queue and move it to the back of the queue.&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1119" y="958" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-37" target="HlDrjTaa7BAYd0O_h8BW-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-37" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 10&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400; text-align: left;&quot;&gt;Check and set the accepted queue element state to complete if the service time has elapsed and move the process into the completed process.&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="880" y="780" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-38" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 11&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400; text-align: left;&quot;&gt;Record the states of the processes in the process state array and increment the time count.&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="880" y="585" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-41" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 12&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Request output options from the user and output results accordingly.&amp;nbsp;&lt;/p&gt;&lt;/h1&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;spacingLeft=20;spacingRight=20;align=center;" parent="1" vertex="1">
+          <mxGeometry x="900" y="270" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-29" target="HlDrjTaa7BAYd0O_h8BW-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.01;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-34" target="HlDrjTaa7BAYd0O_h8BW-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-38" target="HlDrjTaa7BAYd0O_h8BW-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HlDrjTaa7BAYd0O_h8BW-30" target="HlDrjTaa7BAYd0O_h8BW-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-56" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-57" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1041.67" y="439" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlDrjTaa7BAYd0O_h8BW-58" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 9&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400; text-align: left;&quot;&gt;Reduce the service time of the element on top of the accepted queue and move it to the back of the queue.&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1119" y="958" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K8TiVMdBCMnTzfh2gLtm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K8TiVMdBCMnTzfh2gLtm-5" target="HlDrjTaa7BAYd0O_h8BW-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K8TiVMdBCMnTzfh2gLtm-5" value="&lt;h1&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Stage 3&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Initialisation of all SRR Algorithm variables and arrays&amp;nbsp;&lt;/p&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1435" y="65" width="210" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
